@@ -1,5 +1,5 @@
 .primary{
-    color: #3d58d1;
+    color: rgb(63, 63, 109);
 }
 
 .container{
@@ -31,4 +31,55 @@
 .contact-me>ul li{
     display: inline;
     padding: 0 5px;
+}
+.secondary{
+    color: rgb(126, 125, 125);
+}
+.title{
+    font-size: 24px;
+}
+.education-item{
+    display: flex;
+    align-items: center;
+    width: 33.3333%;
+}
+.education-item .logo{
+    width: 20%;
+}
+.education-item .logo img{
+    width: 100%;
+}
+.education-item ul li{
+    list-style: none;
+    padding: 5px 0;
+}
+.education-item ul :nth-child(1){
+    color: rgb(126, 125, 125);
+}
+.education-item ul :nth-child(2){
+    font-weight: 700;
+    font-size:20px;
+}
+.education-item ul :nth-child(3){
+    color:rgb(63, 63, 109);
+}
+.others-block{
+    display: flex;
+    flex-wrap: wrap;
+}
+.others-block h3{
+    padding-bottom: 10px;
+    border-bottom: 2px solid rgb(126, 125, 125);
+}
+.skills{
+    padding-right: 5px;
+}
+.languages{
+    padding-left: 5px;
+}
+.others-block>div{
+    width: 50%;
+}
+.others-block>* {
+    box-sizing: border-box;
 }
